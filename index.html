@@ -4,35 +4,35 @@
   <meta charset="UTF-8">
   <title>Nizion — Reinvent your vizion</title>
   <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background-color: black;
-      color: white;
-      font-family: 'Helvetica Neue', sans-serif;
-    }
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white; /* fond blanc */
+  color: black; /* texte noir */
+  font-family: 'Helvetica Neue', sans-serif;
+}
 
-    header {
-      padding: 20px 40px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-bottom: 1px solid white;
-    }
+header {
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
 
-    .logo {
-      font-size: 24px;
-      font-weight: bold;
-      letter-spacing: 2px;
-    }
+nav {
+  display: flex;
+  gap: 30px;
+}
 
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin-left: 20px;
-      font-weight: 500;
-    }
+nav a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
 
+  
     .hero {
       background-image: url('https://images.unsplash.com/photo-1602810318383-4967a1540c04?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');
       background-size: cover;
@@ -63,14 +63,15 @@
 </head>
 <body>
 
-  <header>
-    <div class="logo">Nizion</div>
-    <nav>
-      <a href="#">Welcome</a>
-      <a href="#">Shop</a>
-      <a href="#">About Us</a>
-    </nav>
-  </header>
+ <header>
+  <div class="logo">Nizion</div>
+  <nav>
+    <a href="#">Welcome</a>
+    <a href="#">Shop</a>
+    <a href="#">About Us</a>
+  </nav>
+</header>
+
 
   <section class="hero">
     <h1>Reinvent your vizion</h1>
